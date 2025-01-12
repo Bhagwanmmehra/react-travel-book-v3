@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+import Logo from "../Components/Logo";
 import Nav from "../Components/Nav";
 
 function HomePage() {
@@ -8,9 +10,9 @@ function HomePage() {
         <Logo />
         <h1></h1>
         <p></p>
-        <NavLinks>
+        <NavLink>
           <span></span>
-        </NavLinks>
+        </NavLink>
       </section>
     </div>
   );
