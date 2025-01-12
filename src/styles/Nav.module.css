@@ -1,0 +1,12 @@
+.nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    list-style: none;
+    padding: 1.5rem;
+    width: 100vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+}

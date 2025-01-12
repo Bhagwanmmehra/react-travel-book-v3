@@ -1,9 +1,22 @@
+import { NavLink } from "react-router";
+import Styles from "../styles/Nav.module.css";
+
 function Nav() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <nav className={Styles.nav}>
+      <ul>
+        <li>
+          <NavLink>Home</NavLink>
+        </li>
+        <li>
+          <NavLink>Login</NavLink>
+        </li>
+        <li>
+          <NavLink>Product</NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
-export default Nav
+export default Nav;
