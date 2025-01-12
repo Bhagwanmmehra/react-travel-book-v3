@@ -9,19 +9,21 @@ function HomePage() {
     <div className={Styles.homePage}>
       <Nav />
       <section className={Styles.hero}>
-        <Logo />
-        <h1>
-          Keep Travelling <br /> We are here to Track you
-        </h1>
-        <p>
-          A world map that tracks your footsteps into every city you can think
-          of. Never forget your wonderful experiences, and show your friends how
-          you have wandered the world.
-        </p>
-        <Link to="/login" className={Styles.cta}>
-          <span>Start Tracking Now</span>
-          <GoArrowRight />
-        </Link>
+        <div>
+          <Logo />
+          <h1>
+            Keep Travelling <br /> We are here to Track you
+          </h1>
+          <p>
+            A world map that tracks your footsteps into every city you can think
+            of. Never forget your wonderful experiences, and show your friends
+            how you have wandered the world.
+          </p>
+          <Link to="/login" className={Styles.cta}>
+            <span>Start Tracking Now</span>
+            <GoArrowRight />
+          </Link>
+        </div>
       </section>
     </div>
   );

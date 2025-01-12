@@ -8,6 +8,8 @@
     --color-white: #f4f4f5;
     --color-black: #343a40;
     --color-grey: #868e96;
+
+    --radius-sm: 0.4rem;
 }
 
 html {
@@ -29,4 +31,10 @@ body {
     font-family: "Poppins", serif;
     background-color: #f8f9fa;
     color: var(--color-black);
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
 }

@@ -6,13 +6,15 @@ function Nav() {
     <nav className={Styles.nav}>
       <ul>
         <li>
-          <NavLink>Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink className={Styles.logoBtn}>Login</NavLink>
+          <NavLink to="/login" className={Styles.loginBtn}>
+            Login
+          </NavLink>
         </li>
         <li>
-          <NavLink>Product</NavLink>
+          <NavLink to="/product">Product</NavLink>
         </li>
       </ul>
     </nav>
