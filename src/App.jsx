@@ -4,6 +4,7 @@ import LoginPage from "./pages/LoginPage";
 import ProductPage from "./pages/ProductPage";
 import AppPage from "./pages/AppPage";
 import ErrorPage from "./pages/ErrorPage";
+import "./global.css";
 
 const Approutes = createBrowserRouter([
   { path: "/", element: <HomePage /> },

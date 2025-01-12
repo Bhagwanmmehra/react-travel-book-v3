@@ -9,7 +9,7 @@ function Nav() {
           <NavLink>Home</NavLink>
         </li>
         <li>
-          <NavLink>Login</NavLink>
+          <NavLink className={Styles.logoBtn}>Login</NavLink>
         </li>
         <li>
           <NavLink>Product</NavLink>
