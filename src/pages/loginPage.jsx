@@ -9,27 +9,27 @@ function LoginPage() {
       <main className={Styles.loginSection}>
         <div className={Styles.loginFormImageBox}>
           <div className={Styles.imgBox}>
-            <img src="" alt="" />
+            <img src="./login.jpg" alt="loading" />
           </div>
 
           <div className={Styles.formBox}>
-            <div className="logoBox">
-              <Logo /> <span></span>
+            <div className={Styles.logoBox}>
+              <Logo /> <span>TravelBook</span>
             </div>
             <form>
               <div>
-                <label htmlFor=""></label>
-                <input type="text" />
+                <label htmlFor="name">Name</label>
+                <input type="text" id="name" />
               </div>
               <div>
-                <label htmlFor=""></label>
-                <input type="text" />
+                <label htmlFor="email">Email</label>
+                <input type="email" id="email" />
               </div>
               <div>
-                <label htmlFor=""></label>
-                <input type="text" />
+                <label htmlFor="password">Password</label>
+                <input type="password" id="password" />
               </div>
-              <button></button>
+              <button>Login</button>
             </form>
           </div>
         </div>
