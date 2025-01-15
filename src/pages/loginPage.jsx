@@ -1,4 +1,4 @@
-import Logo from "../Components/Logo";
+import LogoBox from "../Components/LogoBox";
 import Nav from "../Components/Nav";
 import Styles from "../styles/loginPage.module.css";
 
@@ -13,8 +13,8 @@ function LoginPage() {
           </div>
 
           <div className={Styles.formBox}>
-            <div className={Styles.logoBox}>
-              <Logo /> <span>TravelBook</span>
+            <div>
+              <LogoBox />
             </div>
             <form>
               <div>
